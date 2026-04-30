@@ -7,6 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class EditCaregoryRequest extends FormRequest
 {
     /**
+    * test
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool

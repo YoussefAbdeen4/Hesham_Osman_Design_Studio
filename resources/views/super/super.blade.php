@@ -26,7 +26,7 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{url('plugins/summernote/summernote-bs4.min.css')}}">
     <!-- Custome Edits -->
-    <link rel="stylesheet" href="{{asset('dist/css/customeEdits.css')}}">
+    <link rel="stylesheet" href="{{ asset('dist/css/customeEdits.css') }}?v={{ time() }}">
     <!-- Site icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url('dist/img/ms-icon-310x310.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url('dist/img/ms-icon-310x310.png') }}">

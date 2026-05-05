@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="{{url('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
     <!-- iCheck -->
     <link rel="stylesheet" href="{{url('plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
-    <!-- JQVMap -->
-    <link rel="stylesheet" href="{{url('plugins/jqvmap/jqvmap.min.css')}}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{url('dist/css/adminlte.min.css')}}">
     <!-- overlayScrollbars -->
@@ -28,7 +26,7 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{url('plugins/summernote/summernote-bs4.min.css')}}">
     <!-- Custome Edits -->
-    <link rel="stylesheet" href="{{url('dist/css/customeEdits.css')}}">
+    <link rel="stylesheet" href="{{ asset('dist/css/customeEdits.css') }}?v={{ time() }}">
     <!-- Site icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url('dist/img/ms-icon-310x310.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url('dist/img/ms-icon-310x310.png') }}">
@@ -254,12 +252,7 @@
 <!-- Bootstrap 4 -->
 <script src="{{url('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- ChartJS -->
-<script src="{{url('plugins/chart.js')}}/Chart.min.js')}}"></script>
-<!-- Sparkline -->
-<script src="{{url('plugins/sparklines/sparkline.js')}}"></script>
-<!-- JQVMap -->
-<script src="{{url('plugins/jqvmap/jquery.vmap.min.js')}}"></script>
-<script src="{{url('plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script>
+<script src="{{url('plugins/chart.js/Chart.min.js')}}"></script>
 <!-- jQuery Knob Chart -->
 <script src="{{url('plugins/jquery-knob/jquery.knob.min.js')}}"></script>
 <!-- daterangepicker -->
@@ -274,9 +267,7 @@
 <!-- AdminLTE App -->
 <script src="{{url('dist/js/adminlte.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{url('dist/js/demo.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{url('dist/js/pages/dashboard.js')}}"></script>
 <!-- Scripts -->
 @vite('resources/js/app.js')
 @yield('js')

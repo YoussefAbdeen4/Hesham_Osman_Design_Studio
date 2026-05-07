@@ -15,7 +15,7 @@ input#img {
 @media (min-width: 992px) {
   .sidebar-mini.sidebar-collapse .main-sidebar .user-panel .image {
     float: none;
-    width: 400px !important;
+    /* width: 400px !important; */
   }}
 
 .img-item {

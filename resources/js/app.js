@@ -118,6 +118,12 @@ document.addEventListener("DOMContentLoaded", () => {
             input.addEventListener("change", function () {
                 const files = Array.from(this.files || []);
                 files.forEach((file) => {
+                    const imageElement = document.createElement("img");
+                    
+
+
+
+
                     const reader = new FileReader();
                     const uid = "new-" + newUid++;
                     reader.onload = function (ev) {

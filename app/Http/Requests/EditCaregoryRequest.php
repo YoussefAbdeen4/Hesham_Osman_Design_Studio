@@ -25,7 +25,7 @@ class EditCaregoryRequest extends FormRequest
         return [
             'name' => ['required', 'string', 'max:256', 'min:4'],
             'desc' => ['required', 'string'],
-            'img' => 'nullable|image|mimes:jpg,jpeg,png,gif,webp|max:2048',
+            'img' => 'nullable|image|mimes:jpg,jpeg,png,gif,webp|max:8192',
         ];
     }
 }

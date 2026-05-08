@@ -93,7 +93,7 @@ div.dataTables_wrapper div.dataTables_info {
   padding: 16px 0 16px 22px;
 }
 
-.row .col-12 .row {
+.row .col-12 .row.dashboard {
   gap: 16px;
 }
 
